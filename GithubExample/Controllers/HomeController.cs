@@ -13,6 +13,8 @@ namespace GithubExample.Controllers
             return View();
         }
 
+        // Hakkımızda kısmı burada yer alacak
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -23,6 +25,13 @@ namespace GithubExample.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult Test()
+        {
+            ViewBag.Message = "Your Test page.";
 
             return View();
         }
